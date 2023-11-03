@@ -82,3 +82,45 @@ header nav a:hover {
 .conteiner-principal .caixa a:hover {
     background-color: #dfbc72;
 }
+.segunda-face {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.segunda-face h1 {
+    text-align: left;
+    font-size: 50px;
+    position: absolute;
+    width: 50%;
+    left: 0;
+    margin-left: 10%;
+    line-height: 115px;
+    top: 0;
+    margin-top: 200px;
+    color: rgb(0, 0, 0)
+}
+
+.segunda-face h2 {
+    text-align: left;
+    font-size: 20px;
+    position: absolute;
+    width: 25%;
+
+    left: 0;
+    margin-left: 10%;
+    color: rgb(0, 0, 0);
+}
+
+.segunda-face img {
+    position: absolute;
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    right: 0;
+    margin-right: 10px;
+   
+    
+}
