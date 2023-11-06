@@ -113,14 +113,3 @@ header nav a:hover {
     margin-left: 10%;
     color: rgb(0, 0, 0);
 }
-
-.segunda-face img {
-    position: absolute;
-    width: 50%;
-    height: 50vh;
-    display: flex;
-    right: 0;
-    margin-right: 10px;
-   
-    
-}
