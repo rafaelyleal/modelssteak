@@ -143,4 +143,109 @@ header nav a:hover {
     border-radius: 20px;
 }
 
+.terceira-face {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.137);
+}
+
+.terceira-face .desfile {
+    width: 300px;
+    height: 310px;
+    left: 0;
+    margin-left: 100px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 90px;
+}
+
+.terceira-face .desfile01 {
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    right: 0;
+    margin-right: 100px;
+    top: 0;
+    margin-top: 170px;
+}
+
+.terceira-face .branco {
+    width: 900px;
+    height: 400px;
+    left: 0;
+    margin-left: 100px;
+    position: absolute;
+    top: 0;
+    margin-top: 170px;
+    
+}
+
+.terceira-face .colorido {
+    width: 600px;
+    height: 310px;
+    right: 0;
+    margin-right: 100px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 90px;
+    z-index: 1;
+}
+
+.terceira-face .caixa01 {
+    position: absolute;
+    right: 0;
+    margin-right: 400px;
+    background-color: black;
+    width: 510px;
+    height: 400px;
+    color: white;
+    top: 0;
+    margin-top: 170px;
+}
+
+.terceira-face .caixa01 h2 {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 32px;
+}
+
+.terceira-face .caixa01 p {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.terceira-face .caixa01 a {
+    position: absolute;
+    margin-left: 40%;
+    bottom: 0;
+    margin-bottom: 100px;
+    color: white;
+    text-decoration: none;
+    background-color: #dfbc72;
+    width: 40px;
+    padding: 10px 30px;
+    transition: 0.5s ease-in-out;
+}
+
+.terceira-face .caixa01 a:hover {
+    background-color: rgba(128, 128, 128, 0.863);
+    color: #dfbc72;
+}
+
+.terceira-face .fundopreto {
+    position: absolute;
+    left: 0;
+    margin-left: 400px;
+    background-color: black;
+    width: 900px;
+    height: 310px;
+    bottom: 0;
+    margin-bottom: 90px;
+    z-index: -1;
+}
+
 
