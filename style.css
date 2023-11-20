@@ -14,7 +14,7 @@ header {
     display: flex;
     width: 100%;
     height: 10%;
-    
+
 
 }
 header nav {
@@ -246,6 +246,90 @@ header nav a:hover {
     bottom: 0;
     margin-bottom: 90px;
     z-index: -1;
+}
+
+.quarta-face {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    background-image: linear-gradient(to right,rgb(5, 4, 3),#dfbd72);
+}
+
+.quarta-face .passarela {
+    width: 500px;
+    height: 700px;
+    left: 0;
+    margin-left: 100px;
+    position: absolute;
+    border-radius: 20px;
+    
+}
+
+.final {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.final video {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.final .btn-group {
+    position: relative;
+    z-index: 1;
+    background-image: linear-gradient(to top, black, transparent);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 20px;
+}
+
+.final .btn-group button {
+    width: 20%;
+    height: 5%;
+    background-color: transparent;
+    border: 1px solid #dfbd72 ;
+    margin-bottom: 15%;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+
+.final .btn-group button:hover {
+    background-color:  #dfbd72;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.562);
+    color: white;
+}
+
+footer p {
+    margin-left: 20px;
+}
+
+footer .pe {
+    display: flex;
+    gap: 5px;
+    width: 10%;
+    margin-right: 100px;
 }
 
 
